@@ -3,11 +3,13 @@ module blog
 go 1.15
 
 require (
+	github.com/eddycjy/opentracing-gorm v0.0.0-20200209120330-eafd654cdd8a
 	github.com/fsnotify/fsnotify v1.4.9 // indirect
 	github.com/gin-gonic/gin v1.6.3
 	github.com/go-playground/validator/v10 v10.4.1 // indirect
 	github.com/go-programming-tour-book/blog-service v0.0.0-20200719042655-e337d72c5bc0
 	github.com/golang/protobuf v1.5.1 // indirect
+	github.com/jinzhu/gorm v1.9.12
 	github.com/json-iterator/go v1.1.10 // indirect
 	github.com/leodido/go-urn v1.2.1 // indirect
 	github.com/magiconair/properties v1.8.4 // indirect
