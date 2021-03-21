@@ -1,6 +1,7 @@
 package global
 
 import (
+	"blog/pkg/logger"
 	"blog/pkg/setting"
 )
 
@@ -10,4 +11,5 @@ var (
 	EmailSetting    *setting.EmailSettingS
 	JWTSetting      *setting.JWTSettingS
 	DatabaseSetting *setting.DatabaseSettingS
+	Logger          *logger.Logger
 )

@@ -7,6 +7,7 @@ import (
 
 	otgorm "github.com/eddycjy/opentracing-gorm"
 	"github.com/jinzhu/gorm"
+	_ "github.com/jinzhu/gorm/dialects/mysql"
 )
 
 type Model struct {
