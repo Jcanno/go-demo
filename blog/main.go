@@ -14,6 +14,9 @@ import (
 	"gopkg.in/natefinch/lumberjack.v2"
 )
 
+// @title 博客系统
+// @version 1.0
+// @description GO
 func main() {
 	gin.SetMode(global.ServerSetting.RunMode)
 	router := routers.NewRouter()
